@@ -1,7 +1,7 @@
 {
-  "name": "readmegenerator",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "This is a readme generator",
+  "description": "This is a node.js readme generator using inquirer.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,18 +11,16 @@
     "url": "git+https://github.com/jackjg123/readmegenerator.git"
   },
   "keywords": [
-    "read",
-    "me",
     "readme",
     "generator"
   ],
   "author": "John Grundey",
   "license": "MIT",
-  "dependencies": {
-    "inquirer": "8.2.4"
-  },
   "bugs": {
     "url": "https://github.com/jackjg123/readmegenerator/issues"
   },
-  "homepage": "https://github.com/jackjg123/readmegenerator#readme"
+  "homepage": "https://github.com/jackjg123/readmegenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
 }

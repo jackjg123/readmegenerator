@@ -97,14 +97,12 @@ GIVEN
 > **TO-DO** Take user to the corresponding section of the README
 ```
 
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-> **TO-DO**Create a `.gitignore` file
 
 
-> **TO-DO**include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. 
+Create a `.gitignore` file
+
+
+include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. 
 
 
 > **TO-DO** Be sure to create your `.gitignore` file before installing any npm dependencies.
