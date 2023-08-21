@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('generate-markdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
   {
     type: 'input',
@@ -57,8 +57,10 @@ function writeToFile(fileName, data) {
 
 // Initialize README generator.
 function init() {
-  inquirer.createPromptModule(questions).then((answers) => {
-    const markdown = generateMarkdown(answers);
+  inquirer.prompt(questions).then((data) => {
+    const markdown = generateMarkdown(data);
     writeToFile('README.md', markdown);
   });
 }
+
+init();
