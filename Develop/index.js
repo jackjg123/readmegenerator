@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
-
-inquirer.prompt([
+const fs = require('fs');
+const questions = [
   {
     type: 'input',
     name: 'title',
@@ -41,9 +41,23 @@ inquirer.prompt([
     name: 'tests',
     message: 'Enter tests:',
   },
-  {
-    type: 'input',
-    name: 'title',
-    message: '',
-  },
-]);
+];
+
+// write readme file.
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log(`${fileName} created successfully.`);
+    }
+  });
+}
+
+// Initialize README generator.
+function init() {
+  inquirer.createPromptModule(questions).then((answers) => {
+    const markdown = generateMarkdown(answers);
+    writeToFile('README.md', markdown);
+  });
+}
