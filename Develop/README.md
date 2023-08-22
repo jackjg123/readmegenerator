@@ -1,9 +1,9 @@
-# ReadMe Generator
+# fghjdfyhj
 
-  // Add the license badge here
+undefined   
 
 ## Description
-This allows the user to generate a readme file easily in the terminal.
+adfgsrthj
 
 ## License
-This project is licensed under the [undefined]() license.
+This project is licensed under the [GNU Affero General Public License V3.0]() license.
