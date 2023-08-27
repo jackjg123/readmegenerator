@@ -2,18 +2,22 @@ function renderLicenseName(license) {
   if (!license !== 'none') {
     return `## License
     
-    This project is licensed under the $license) license.`;
+    This project is licensed under the ${license} license.`;
   }
   return '';
 }
 
-function getLicenseBadge() {
-  const licenseInfo = licenseSelected.find((lic) => lic.name === licenseName);
-  if (!licenseInfo) {
-    return licenseBadge; // Return the original badge if license info not found
+function renderBadge(license) {
+  if (license !== 'none') {
+    return `## LicenseBadge`;
+  }
+  return '';
+}
+function renderLink(license) {
+  if (license !== 'none') {
+    return `[License](#license)`;
   }
 }
-
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -44,10 +48,7 @@ ${data.features}
 ${data.contribution}
 
 ## Tests
-${data.tests}
-
-## License
-${renderLicenseName(data.license)}
+${data.tests}}
 `;
 }
 

@@ -1,7 +1,7 @@
-# readme generator
+# jack 
 
 ## Description
-discptions
+john
 ## Table of Contents
 - [Installations](#installations)
 - [Usage](#usage)
@@ -12,19 +12,19 @@ discptions
 - [License](#license)
 
 ## Installation
-procedure
+grundey
 
 ## Usage
-inormation
+joseph
 
 ## Credits
-credits
+april
 
 ## Features
-feature
+27
 
 ## Contributions
-contrubutions
+balling
 
 ## Tests
 tests
@@ -32,4 +32,4 @@ tests
 ## License
 ## License
     
-    This project is licensed under the $(license) license.
+    This project is licensed under the MIT license.

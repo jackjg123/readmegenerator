@@ -45,7 +45,7 @@ const questions = [
   },
   {
     type: 'list',
-    name: 'chooseLicense',
+    name: 'license',
     message: 'Please select a license:',
     choices: [
       'None',
@@ -72,7 +72,7 @@ function writeToFile(fileName, data) {
 // Initialize README generator.
 function init() {
   inquirer.prompt(questions).then((data) => {
-    const selectedLicense = data.chooseLicense;
+    const selectedLicense = data.license;
     const markdown = generateMarkdown(data, selectedLicense);
     writeToFile('README.md', markdown);
   });
