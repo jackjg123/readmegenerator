@@ -1,22 +1,20 @@
-// function renderLicenseName(license) {
-//   if (!license) return '';
-//   const choice = license.map((license) => {
-//     return license.name;
-//   });
-//   console.log(choice);
-// }
+function renderLicenseName(license) {
+  if (!license !== 'none') {
+    return `## License
+    
+    This project is licensed under the $license) license.`;
+  }
+  return '';
+}
 
-function getLicenseBadgeWithLink() {
+function getLicenseBadge() {
   const licenseInfo = licenseSelected.find((lic) => lic.name === licenseName);
   if (!licenseInfo) {
     return licenseBadge; // Return the original badge if license info not found
   }
-
-  const badgeWithLink = `${licenseBadge}\n\n[Learn more about ${licenseInfo.name}](${licenseInfo.url})`;
-  return badgeWithLink;
 }
 
-function generateMarkdown(data, selectedLicense) {
+function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
@@ -49,13 +47,8 @@ ${data.contribution}
 ${data.tests}
 
 ## License
-
-This project is licensed under the [${selectedLicense.name}](${selectedLicense.url}) license.
-
-${selectedLicense.badge}
+${renderLicenseName(data.license)}
 `;
-  // You can add more sections as needed
 }
 
 module.exports = generateMarkdown;
-module.exportrgetLicenseBadgeWithLink;

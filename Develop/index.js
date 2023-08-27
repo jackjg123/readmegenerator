@@ -74,7 +74,6 @@ function init() {
   inquirer.prompt(questions).then((data) => {
     const selectedLicense = data.chooseLicense;
     const markdown = generateMarkdown(data, selectedLicense);
-    const badgeLinke = getLicenseBadgeWithLinke(data, selectedLicense);
     writeToFile('README.md', markdown);
   });
 }

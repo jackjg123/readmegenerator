@@ -1,7 +1,7 @@
-# l;skadfjasdl;fkj
+# readme generator
 
 ## Description
-;alsdkfjl;asdkfj
+discptions
 ## Table of Contents
 - [Installations](#installations)
 - [Usage](#usage)
@@ -12,25 +12,24 @@
 - [License](#license)
 
 ## Installation
-agag
+procedure
 
 ## Usage
-agagafg
+inormation
 
 ## Credits
-[werpg
+credits
 
 ## Features
-wertawert
+feature
 
 ## Contributions
-gawer
+contrubutions
 
 ## Tests
-tg
+tests
 
 ## License
-
-This project is licensed under the [undefined](undefined) license.
-
-undefined
+## License
+    
+    This project is licensed under the $(license) license.
