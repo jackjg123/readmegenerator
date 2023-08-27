@@ -50,10 +50,10 @@ const questions = [
     choices: [
       'None',
       'MIT',
-      'Apache 2.0',
-      'Boost Software License 1.0',
-      'GNU GPL v3',
-      'Mozilla Public License 2.0',
+      'Apache',
+      'Boost_Software',
+      'GNU_GPL_v3',
+      'Mozilla_Public_License_2.0',
     ],
   },
 ];
