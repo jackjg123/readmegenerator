@@ -48,7 +48,9 @@ ${data.features}
 ${data.contribution}
 
 ## Tests
-${data.tests}}
+${data.tests}
+
+${renderLicenseName(data.license)}
 `;
 }
 
