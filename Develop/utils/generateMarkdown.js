@@ -9,7 +9,7 @@ function renderLicenseName(license) {
 
 function renderBadge(license) {
   if (license !== 'none') {
-    return `## LicenseBadge`;
+    return `![License Badge](https://img.shields.io/badge/License-${license}-blue)`;
   }
   return '';
 }
@@ -20,7 +20,7 @@ function renderLink(license) {
 }
 function generateMarkdown(data) {
   return `# ${data.title}
-
+${renderBadge(data.license)}
 ## Description
 ${data.description}
 ## Table of Contents

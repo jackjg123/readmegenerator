@@ -1,7 +1,7 @@
 # jack 
-
+![License Badge](https://img.shields.io/badge/License-MIT-blue)
 ## Description
-john
+jack
 ## Table of Contents
 - [Installations](#installations)
 - [Usage](#usage)
@@ -12,24 +12,19 @@ john
 - [License](#license)
 
 ## Installation
-grundey
+jack
 
 ## Usage
-joseph
+jcak
 
 ## Credits
-april
+jack
 
 ## Features
-27
+jack
 
 ## Contributions
-balling
+jack
 
 ## Tests
-tests
-
-## License
-## License
-    
-    This project is licensed under the MIT license.
+jack}
