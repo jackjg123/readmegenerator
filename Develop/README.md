@@ -1,7 +1,7 @@
-# Jack
-![License Badge](https://img.shields.io/badge/License-Apache 2.0-blue)
+# Jack 
+![License Badge](https://img.shields.io/badge/License-Apache-blue)
 ## Description
-Jack
+jack
 ## Table of Contents
 - [Installations](#installations)
 - [Usage](#usage)
@@ -12,23 +12,23 @@ Jack
 - [License](#license)
 
 ## Installation
-Jack
+jack
 
 ## Usage
-Jack
+jack
 
 ## Credits
-Jack
+jcak
 
 ## Features
-Jack
+jack
 
 ## Contributions
-Jack
+jack
 
 ## Tests
-Jack
+jca
 
 ## License
     
-    This project is licensed under the Apache 2.0 license.
+    This project is licensed under the Apache license.
